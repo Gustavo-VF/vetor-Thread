@@ -18,7 +18,7 @@ public class ThreadVetor extends Thread {
 			}
 			double tempFinal = System.nanoTime();
 			double tempTotal = tempFinal - tempInicio;
-			tempTotal *= 1000; 
+			tempTotal *= 1000;
 			System.out.println("forach -> " + tempTotal);
 		} else {
 			double tempInicio = System.nanoTime();
